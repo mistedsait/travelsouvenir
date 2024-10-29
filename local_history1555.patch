@@ -1,0 +1,240 @@
+Index: app/src/main/java/com/example/travelsouvenir/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/travelsouvenir/MainActivity.kt b/app/src/main/java/com/example/travelsouvenir/MainActivity.kt
+--- a/app/src/main/java/com/example/travelsouvenir/MainActivity.kt	
++++ b/app/src/main/java/com/example/travelsouvenir/MainActivity.kt	(date 1730196733358)
+@@ -55,7 +55,7 @@
+             if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) ==
+                 PackageManager.PERMISSION_GRANTED
+             ) {
+-                // FCM SDK (and your app) can post notifications.
++
+             } else if (shouldShowRequestPermissionRationale(Manifest.permission.POST_NOTIFICATIONS)) {
+                 // Show rationale to the user explaining why the permission is needed
+             } else {
+Index: app/release/output-metadata.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/release/output-metadata.json b/app/release/output-metadata.json
+new file mode 100644
+--- /dev/null	(date 1730196733150)
++++ b/app/release/output-metadata.json	(date 1730196733150)
+@@ -0,0 +1,37 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "APK",
++    "kind": "Directory"
++  },
++  "applicationId": "com.example.travelsouvenir",
++  "variantName": "release",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "versionCode": 1,
++      "versionName": "1.0",
++      "outputFile": "app-release.apk"
++    }
++  ],
++  "elementType": "File",
++  "baselineProfiles": [
++    {
++      "minApi": 28,
++      "maxApi": 30,
++      "baselineProfiles": [
++        "baselineProfiles/1/app-release.dm"
++      ]
++    },
++    {
++      "minApi": 31,
++      "maxApi": 2147483647,
++      "baselineProfiles": [
++        "baselineProfiles/0/app-release.dm"
++      ]
++    }
++  ],
++  "minSdkVersionForDexing": 24
++}
+\ No newline at end of file
+Index: app/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/.gitignore b/app/.gitignore
+--- a/app/.gitignore	
++++ b/app/.gitignore	(date 1730198093318)
+@@ -1,1 +1,2 @@
+-/build
+\ No newline at end of file
++/build
++google-services.json
+\ No newline at end of file
+diff --git a/app/release/baselineProfiles/0/app-release.dm b/app/release/baselineProfiles/0/app-release.dm
+new file mode 100644
+diff --git a/app/release/baselineProfiles/1/app-release.dm b/app/release/baselineProfiles/1/app-release.dm
+new file mode 100644
+diff --git a/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp b/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-hdpi/ic_launcher.webp b/app/src/main/res/mipmap-hdpi/ic_launcher.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-xhdpi/ic_launcher.webp b/app/src/main/res/mipmap-xhdpi/ic_launcher.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/font/inknutantiqua_bold.ttf b/app/src/main/res/font/inknutantiqua_bold.ttf
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/font/inknutantiqua_black.ttf b/app/src/main/res/font/inknutantiqua_black.ttf
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/font/inknutantiqua_light.ttf b/app/src/main/res/font/inknutantiqua_light.ttf
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/font/inknutantiqua_medium.ttf b/app/src/main/res/font/inknutantiqua_medium.ttf
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/font/inknutantiqua_regular.ttf b/app/src/main/res/font/inknutantiqua_regular.ttf
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/font/inknutantiqua_semibold.ttf b/app/src/main/res/font/inknutantiqua_semibold.ttf
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/font/inknutantiqua_extrabold.ttf b/app/src/main/res/font/inknutantiqua_extrabold.ttf
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-mdpi/ic_launcher.webp b/app/src/main/res/mipmap-mdpi/ic_launcher.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable-nodpi/book.png b/app/src/main/res/drawable-nodpi/book.png
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable-nodpi/paris.jpg b/app/src/main/res/drawable-nodpi/paris.jpg
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable-nodpi/camera.png b/app/src/main/res/drawable-nodpi/camera.png
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable-nodpi/homeor.png b/app/src/main/res/drawable-nodpi/homeor.png
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable-nodpi/profile.png b/app/src/main/res/drawable-nodpi/profile.png
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable-nodpi/new_york.jpg b/app/src/main/res/drawable-nodpi/new_york.jpg
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable-nodpi/paper_plane.png b/app/src/main/res/drawable-nodpi/paper_plane.png
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/drawable-nodpi/travel_photo.png b/app/src/main/res/drawable-nodpi/travel_photo.png
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp b/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp b/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/app/release/app-release.apk b/app/release/app-release.apk
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
