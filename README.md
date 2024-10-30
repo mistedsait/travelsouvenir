@@ -10,6 +10,7 @@ This Android app is a **location-based travel tracker** that allows users to cap
 - [Dependencies](#dependencies)
 - [Features](#features)
 - [Screenshots](#screenshots)
+- [Future Plans](#future-plans)
   
 ---
 
