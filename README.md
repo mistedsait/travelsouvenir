@@ -1,4 +1,4 @@
-# Travel Companion App 📸🌍
+# Travel Souvenir App 📸🌍
 
 This Android app is a **location-based travel tracker** that allows users to capture and save trip memories in city-specific albums, fetch additional information about locations from Wikipedia, and receive push notifications with deep linking to navigate seamlessly within the app.
 
