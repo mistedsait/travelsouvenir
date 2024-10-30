@@ -104,7 +104,7 @@ dependencies {
     androidTestImplementation ("androidx.test.espresso:espresso-core:3.5.1")
     testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1")
     testImplementation ("org.robolectric:robolectric:4.10")
-
+    implementation ("ch.qos.logback:logback-classic:1.2.3")
     testImplementation ("io.mockk:mockk:1.13.4")
     testImplementation ("androidx.arch.core:core-testing:2.1.0")
     //FIREBASE
