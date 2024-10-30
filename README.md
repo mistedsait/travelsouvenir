@@ -121,6 +121,32 @@ Make sure your project includes the following dependencies in your `build.gradle
 <img src="https://github.com/user-attachments/assets/e2264245-998d-4eb4-b2c3-f563d1cb8209" alt="Screenshot 2" width="250" height="550"/>
 <img src="https://github.com/user-attachments/assets/1d9ff69d-2e83-44b6-83a6-f996fd7c3bea" alt="Screenshot 3" width="250" height="550"/>
 
+---
+
+### Future Plans
+
+1. **Improving the UI**: 
+   - Enhance the user interface with more visually appealing designs and animations to improve user experience.
+
+2. **Integrating Custom API**:
+   - Develop and integrate a custom API to provide additional features and functionalities tailored to user needs.
+
+3. **User Authentication**:
+   - Implement user authentication to allow users to create accounts and securely log in.
+
+4. **Offline Mode**:
+   - Enhance offline capabilities to allow users to access certain features without an internet connection, improving usability during travel.
+
+5. **Social Sharing**:
+   - Allow users to share their travel experiences and photos on social media platforms directly from the app.
+
+6. **Gamification Elements**:
+   - Add gamification elements, such as challenges and leaderboards, to engage users and encourage participation.
+
+7. **Location-Based Recommendations**:
+    - Provide users with recommendations for nearby attractions and places of interest based on their current location.
+
+
 
 
 
