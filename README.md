@@ -63,9 +63,9 @@ This Android app is a **location-based travel tracker** that allows users to cap
 
 ## Screenshots
 
-<img src="https://github.com/user-attachments/assets/bc5e15d9-464b-4fa5-89e1-1fb32a89cb7e" alt="Screenshot 1" width="250" height="800"/>
-<img src="https://github.com/user-attachments/assets/e2264245-998d-4eb4-b2c3-f563d1cb8209" alt="Screenshot 2" width="250" height="800"/>
-<img src="https://github.com/user-attachments/assets/1d9ff69d-2e83-44b6-83a6-f996fd7c3bea" alt="Screenshot 3" width="250" height="800"/>
+<img src="https://github.com/user-attachments/assets/bc5e15d9-464b-4fa5-89e1-1fb32a89cb7e" alt="Screenshot 1" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/e2264245-998d-4eb4-b2c3-f563d1cb8209" alt="Screenshot 2" width="250" height="550"/>
+<img src="https://github.com/user-attachments/assets/1d9ff69d-2e83-44b6-83a6-f996fd7c3bea" alt="Screenshot 3" width="250" height="550"/>
 
 
 ---
