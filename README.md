@@ -2,12 +2,66 @@
 
 This Android app is a **location-based travel tracker** that allows users to capture and save trip memories in city-specific albums, fetch additional information about locations from Wikipedia, and receive push notifications with deep linking to navigate seamlessly within the app.
 
+---
+
 ## Table of Contents
-- [Features](#features)
-- [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
+- [Features](#features)
+- [Screenshots](#screenshots)
+  
+---
+
+## Getting Started
+
+To get your project up and running, follow these steps:
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Android Studio](https://developer.android.com/studio) (latest version recommended)
+- Java Development Kit (JDK) 11 or higher
+
+### Clone the Repository
+
+First, clone the repository to your local machine using:
+
+```bash
+git clone https://github.com/mistedsait/travelsouvenir.git
+```
+### Open the Project
+
+1. Open Android Studio.
+2. Select "Open an existing Android Studio project."
+3. Navigate to the cloned repository and open it.
+
+### Configure Firebase
+
+1. **Place `google-services.json` in the `app/` directory**: 
+   - This file enables Firebase services. You can obtain it by creating a Firebase project and adding an Android app in the Firebase console.
+
+### Set Up Dependencies
+
+Ensure you have all the required dependencies listed in your `build.gradle` files. Sync your Gradle files after any modifications.
+
+### Run the App
+
+1. Connect your Android device or start an emulator.
+2. Click on the Run button in Android Studio.
+3. Select your device/emulator and wait for the app to build and launch.
+
+### Dependencies
+
+Make sure your project includes the following dependencies in your `build.gradle` file:
+
+- **Firebase Cloud Messaging**: For push notifications.
+- **Retrofit**: For API calls to Wikipedia for city information.
+- **Jetpack Compose**: UI toolkit for creating UI elements.
+- **Room Database**: Data persistence solution.
+- **Hilt**: Dependency injection framework for managing app components.
+- **Accompanist Pager**: For smooth screen transitions and animations.
 
 ---
 
@@ -68,17 +122,6 @@ This Android app is a **location-based travel tracker** that allows users to cap
 <img src="https://github.com/user-attachments/assets/1d9ff69d-2e83-44b6-83a6-f996fd7c3bea" alt="Screenshot 3" width="250" height="550"/>
 
 
----
 
-## Dependencies
-
-- **Firebase Cloud Messaging**: For push notifications.
-- **Retrofit**: For making API calls to Wikipedia to retrieve city information.
-- **Jetpack Compose**: UI toolkit for creating user interface elements.
-- **Room Database**: Ensures data persistence for saved locations and photos.
-- **Hilt**: Dependency injection framework for managing and injecting app components.
-- **Accompanist Pager**: Provides smooth animations and screen transitions.
-
----
 
 
